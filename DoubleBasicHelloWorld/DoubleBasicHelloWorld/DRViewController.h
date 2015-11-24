@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface DRViewController : UIViewController {
 	IBOutlet UILabel *statusLabel;
 	IBOutlet UILabel *poleHeightPercentLabel;
@@ -18,10 +19,13 @@
 	IBOutlet UILabel *serialLabel;
 	IBOutlet UILabel *leftEncoderLabel;
 	IBOutlet UILabel *rightEncoderLabel;
+	IBOutlet UILabel *seconds;	//added
+    	IBOutlet UILabel *onOff;	//added
 	IBOutlet UIButton *driveForwardButton;
 	IBOutlet UIButton *driveBackwardButton;
 	IBOutlet UIButton *driveLeftButton;
 	IBOutlet UIButton *driveRightButton;
+    	IBOutlet UISwitch *driveSwitch;	//added
 }
 
 @end
